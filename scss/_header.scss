@@ -33,5 +33,25 @@ header {
         border: 1.5px solid white;
       }
     }
+    @media (max-width: 991px) {
+      .gow {
+        margin-left: 10rem;
+      }
+    }
+    @media (max-width: 560px) {
+      height: 7rem;
+      .sony {
+        display: none;
+      }
+      .gow {
+        max-width: 140px;
+        margin-left: 0rem;
+      }
+      .platform {
+        span {
+          display: none;
+        }
+      }
+    }
   }
 }
